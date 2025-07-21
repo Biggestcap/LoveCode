@@ -1,6 +1,8 @@
 # LoveCode
 This is just the first test of the "Love Code" in the Git repository.
 
+这个Python的爱心代码只作为测试使用，也作为第一次使用Github仓库。
+
 1. **确保已安装 Python**：
 
 这个程序是用 Python 编写的，首先需要在你的电脑上安装 Python 环境。你可以从[Python 官网](https://www.python.org/)下载并安装适合你操作系统的版本。
