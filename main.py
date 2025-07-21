@@ -1,6 +1,4 @@
-## Maintainer : 曹法灿
-## Email      : incredible219@163.com
-## QQ         : 914680354 
+## Maintainer : Nova_Cao
 
 import tkinter as tk
 import tkinter.messagebox
@@ -205,7 +203,7 @@ def NO():
     """
     拒绝按钮回调函数
     """
-    tk.messagebox.showinfo('提示', '我诺死你')
+    tk.messagebox.showinfo('提示', '真的要拒绝吗TuT')
 
 
 def closeWindow():
@@ -248,14 +246,14 @@ if __name__ == '__main__':
     button_frame.pack(pady=30)
     
     # 同意按钮
-    yes_button = tk.Button(button_frame, text='中中中 💖', 
+    yes_button = tk.Button(button_frame, text='好呀好呀 💖', 
                           command=OK, bg='#FF69B4', fg='white',
                           font=('Arial', 12, 'bold'), 
                           width=10, height=2)
     yes_button.pack(side=tk.LEFT, padx=20)
     
     # 拒绝按钮
-    no_button = tk.Button(button_frame, text='不中不中 💔', 
+    no_button = tk.Button(button_frame, text='我很抱歉 💔', 
                          command=NO, bg='#DC143C', fg='white',
                          font=('Arial', 12, 'bold'), 
                          width=10, height=2)
